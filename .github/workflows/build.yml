@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main # or the name of your main branch
+      - branch-* # all other branchs to analysis
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
